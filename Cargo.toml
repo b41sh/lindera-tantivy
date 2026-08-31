@@ -24,8 +24,8 @@ embed-cc-cedict = [
 default = [] # No directories included
 
 [dependencies]
-tantivy-tokenizer-api = "0.7.0"
-tantivy = "0.26.1"
+tantivy-tokenizer-api = { git = "https://github.com/datafuse-extras/tantivy", rev = "760ddb7", package="tantivy-tokenizer-api" }
+tantivy = "0.27.0"
 
 
 lindera = "5.0.1"
