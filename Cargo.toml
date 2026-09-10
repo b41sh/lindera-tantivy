@@ -25,7 +25,8 @@ default = [] # No directories included
 
 [dependencies]
 #tantivy-tokenizer-api = { git = "https://github.com/datafuse-extras/tantivy", rev = "760ddb7", package="tantivy-tokenizer-api" }
-tantivy-tokenizer-api = { git = "https://github.com/b41sh/tantivy", rev = "aeeb17642657145c020a3db1cad08eaa4e5b8c15", package="tantivy-tokenizer-api" }
+#tantivy-tokenizer-api = { git = "https://github.com/b41sh/tantivy", rev = "aeeb17642657145c020a3db1cad08eaa4e5b8c15", package="tantivy-tokenizer-api" }
+tantivy-tokenizer-api = { git = "https://github.com/b41sh/tantivy", rev = "296cc717b2ab1f3a9a117e14ba851dc2149aaf15", package="tantivy-tokenizer-api" }
 tantivy = "0.27.0"
 
 
